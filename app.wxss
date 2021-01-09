@@ -1,0 +1,43 @@
+image {
+  width: 0;
+  height: 0;
+}
+
+page {
+  background: #f7f7f7;
+}
+
+view {
+  box-sizing: border-box;
+}
+
+.banner_top_image {
+  width: 100%;
+  z-index: -1;
+}
+
+.banner_top_image image {
+  width: 100%;
+}
+
+/* 去除button默认样式 */
+
+button::after {
+  border: none;
+}
+
+button {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  line-height: inherit!important;
+  padding: 0!important;
+  width: 100%!important;
+}
+
+button {
+  border-radius: 0;
+}
+.button-hover{
+  background: none;
+}
